@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscription</title>
+</head>
+<body>
+<nav>
+    <header>
+                <ul style="list-style-type: none; display: flex; justify-content: center; gap: 20px;">
+
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="program.html">Program</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <header style="text-align: center;">
+        <h1 style="color: green;">  OLIVE AU COEUR</h1>
+        <h2>festival olive au cœur</h2>
+    </header>
+    </header>
+
+</nav>
+    <main>
+        <section>
+            <h2>Inscription au Festival Olive au Cœur</h2>
+            <form action="submit_inscription.php" method="post">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Téléphone :</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+
+                <label for="activities">Activités auxquelles vous souhaitez participer :</label><br>
+                <input type="checkbox" id="tasting" name="activities[]" value="Dégustation d'huiles d'olive">
+                <label for="tasting">Dégustation d'huiles d'olive</label><br>
+
+                <input type="checkbox" id="workshop" name="activities[]" value="Atelier de fabrication de savons">
+                <label for="workshop">Atelier de fabrication de savons</label><br>
+
+                <input type="checkbox" id="conference" name="activities[]" value="Conférence sur l'huile d'olive">
+                <label for="conference">Conférence sur l'huile d'olive</label><br>
+
+                <input type="checkbox" id="market" name="activities[]" value="Marché des producteurs locaux">
+                <label for="market">Marché des producteurs locaux</label><br><br>
+
+                <input type="submit" value="S'inscrire">
+            </form>
+        </section>
+    </main>
+    <hr>
+    
+<!-- Liens internes -->
+<nav>
+    <h2>Navigation</h2>
+    <a href="#faq">FAQ</a> |
+    <a href="#glossaire">Glossaire</a> |
+    <a href="#programme">Programme</a> |
+    <a href="#inscription">Inscription</a>
+</nav>
+
+<hr>
+
+<!-- Section FAQ -->
+<section id="faq">
+    <h2>FAQ - Questions fréquentes</h2>
+
+    <details>
+        <summary>1. Où se déroule le festival ?</summary>
+        <p>Le festival L’Olive au Cœur se déroule au Maroc.</p>
+    </details>
+
+    <details>
+        <summary>2. Quand se déroule le festival ?</summary>
+        <p>Le festival se déroule pendant trois jours.</p>
+    </details>
+
+    <details>
+        <summary>3. Quel est l'objectif du festival ?</summary>
+        <p>Le festival a pour objectif de faire découvrir l'olive et ses produits.</p>
+    </details>
+
+    <details>
+        <summary>4. Qui peut participer au festival ?</summary>
+        <p>Tout le monde peut participer : familles, étudiants et professionnels.</p>
+    </details>
+
+    <details>
+        <summary>5. Est-ce que l'entrée est gratuite ?</summary>
+        <p>Les visiteurs peuvent consulter les informations sur les tarifs auprès des organisateurs.</p>
+    </details>
+
+    <details>
+        <summary>6. Comment s'inscrire au festival ?</summary>
+        <p>Il suffit de remplir le formulaire d'inscription disponible sur notre site.</p>
+    </details>
+</section>
+
+<hr>
+
+<!-- Section Glossaire -->
+<section id="glossaire">
+    <h2>Glossaire - Termes du festival</h2>
+
+    <dl>
+        <dt><strong>1. Olive</strong></dt>
+        <dd>Fruit de l'olivier utilisé pour produire l'huile d'olive.</dd>
+
+        <dt><strong>2. Oléiculture</strong></dt>
+        <dd>Culture et production des olives.</dd>
+
+        <dt><strong>3. Huile d'olive</strong></dt>
+        <dd>Huile obtenue à partir des olives.</dd>
+
+        <dt><strong>4. Producteur</strong></dt>
+        <dd>Personne qui cultive et récolte les olives.</dd>
+
+        <dt><strong>5. Artisan</strong></dt>
+        <dd>Personne qui fabrique des produits avec son savoir-faire.</dd>
+    </dl>
+</section>
+
+    <footer>
+        <p>&copy; 2026 Festival Olive au Cœur. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
